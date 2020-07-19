@@ -1,0 +1,25 @@
+{
+  "name": "learning-d3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sonesuke/learning-d3.git",
+  "author": "sonesuke",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "typings": "^2.1.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@types/d3": "^5.7.2",
+    "d3": "^5.16.0"
+  }
+}

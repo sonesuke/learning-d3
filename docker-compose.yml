@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  d3:
+    image: node:latest
+    tty: true
+    volumes:
+    - ./:/app
+    working_dir: /app
+    ports:
+      - "8000:8080"
+    command: "yarn start"
